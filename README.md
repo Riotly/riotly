@@ -14,7 +14,7 @@
 
 - 💬 Ask me about **JS, NodeJS, Python, HTML**
 
-- 📫 How to reach me [Through my website](riotly.dev)
+- 📫 How to reach me [SOON*)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
