@@ -1,6 +1,6 @@
 <div align="center">
   <img src="assets/banner.png" alt="Harsh Kohli" width="100%" />
-  <img src="assets/header.svg" alt="Harsh Kohli — gamer and developer" width="100%" />
+  <img src="assets/header.svg" alt="Harsh Kohli, gamer and developer" width="100%" />
 </div>
 
 <br />
@@ -24,7 +24,7 @@
 
 ### About
 
-I'm **Harsh Kohli**. I write software, I test it like it matters, and I keep learning the systems underneath — including the ones that move money.
+I'm **Harsh Kohli**. I write software, I test it like it matters, and I keep learning the systems underneath, including the ones that move money.
 
 First computer in **2015**. Started shipping for real in **2022**. Joined **Badlion Client** in **2023**, Senior QA in **2024**. Still at the bench.
 
@@ -41,7 +41,7 @@ Building things that make sense, and sometimes even feel beautiful.
 | Software | Quality | Markets |
 | :-- | :-- | :-- |
 | **I write it** | **I break it first** | **I watch the tape** |
-| Sites, tools, client work. If it has to stay up, I treat it that way. Clear over clever. | Senior QA on [Badlion Client](https://badlion.net) — a large Minecraft client, a lot of people hitting the same buttons at the same time. | Crypto and the rails under it. I learned this by using it, not by collecting threads. |
+| Sites, tools, client work. If it has to stay up, I treat it that way. Clear over clever. | Senior QA on [Badlion Client](https://badlion.net), a large Minecraft client, a lot of people hitting the same buttons at the same time. | Crypto and the rails under it. I learned this by using it, not by collecting threads. |
 
 ---
 
@@ -81,7 +81,7 @@ Building things that make sense, and sometimes even feel beautiful.
 2015   first computer. countless hours exploring how the machine actually works
 2022   stepped into real software. started shipping
 2023   joined Badlion Client
-2024   Senior QA — releases, edge cases, the last five percent
+2024   Senior QA. Releases, edge cases, the last five percent
 2025   deepest year at the bench so far
 2026   opened the door to markets. still writing. still asking what happens if you press it twice
 ```
