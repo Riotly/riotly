@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-label="Status bars">
+  <style>
+    .lab { font: 700 13px Verdana, Geneva, sans-serif; fill: #cbb8e4; letter-spacing: 3px; }
+    .pct { font: 700 12px Consolas, "Courier New", monospace; fill: #f6eefe; }
+    .cap { font: 10px Verdana, Geneva, sans-serif; fill: #9a86b8; letter-spacing: 2px; }
+  </style>
+  <rect width="1200" height="160" fill="#2a1b45"/>
+  <rect x="16" y="12" width="1168" height="136" fill="none" stroke="#6e5a8c" stroke-width="2"/>
+  <text x="36" y="22" class="cap">PLAYER STATUS</text>
+  <text x="36" y="44" class="lab">SOFTWARE</text>
+      <rect x="200" y="28" width="720" height="18" fill="#1a1028" stroke="#6e5a8c" stroke-width="2"/>
+      <rect x="202" y="30" width="0" height="14" fill="#e8def6">
+        <animate attributeName="width" from="0" to="634" dur="1.4s" begin="0.2s" fill="freeze"/>
+      </rect>
+      <text x="940" y="43" class="pct">88</text>
+<text x="36" y="86" class="lab">QUALITY</text>
+      <rect x="200" y="70" width="720" height="18" fill="#1a1028" stroke="#6e5a8c" stroke-width="2"/>
+      <rect x="202" y="72" width="0" height="14" fill="#cbb8e4">
+        <animate attributeName="width" from="0" to="583" dur="1.4s" begin="0.45s" fill="freeze"/>
+      </rect>
+      <text x="940" y="85" class="pct">81</text>
+<text x="36" y="128" class="lab">MARKETS</text>
+      <rect x="200" y="112" width="720" height="18" fill="#1a1028" stroke="#6e5a8c" stroke-width="2"/>
+      <rect x="202" y="114" width="0" height="14" fill="#9ae0ff">
+        <animate attributeName="width" from="0" to="497" dur="1.4s" begin="0.7s" fill="freeze"/>
+      </rect>
+      <text x="940" y="127" class="pct">69</text>
+</svg>

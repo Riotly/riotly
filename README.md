@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="assets/banner.png" alt="Harsh Kohli night sky" width="100%" />
+  <img src="assets/banner-live.svg" alt="Harsh Kohli night sky" width="100%" />
   <img src="assets/header.svg" alt="Harsh Kohli, gamer and developer" width="100%" />
+  <img src="assets/hud.svg" alt="Player status" width="100%" />
 </div>
 
 <br />
@@ -22,23 +23,9 @@
 
 <img src="assets/divider.svg" alt="" width="100%" />
 
-```text
-$ whoami
-harsh kohli
-gamer. developer. still at the bench.
-
-$ cat about.txt
-I write software, I test it like it matters,
-and I keep learning the systems underneath,
-including the ones that move money.
-
-First computer in 2015. Shipping for real in 2022.
-Senior QA in 2024. Still asking what happens
-if you press it twice.
-
-$ echo site
-https://harshkohli.com
-```
+<div align="center">
+  <img src="assets/terminal.svg" alt="whoami terminal" width="100%" />
+</div>
 
 <img src="assets/divider.svg" alt="" width="100%" />
 
@@ -47,15 +34,15 @@ https://harshkohli.com
 <table>
   <tr>
     <td width="33%" valign="top">
-      <img src="assets/card-software.png" alt="Software room" />
+      <img src="assets/card-software.jpg" alt="Software room" />
       <p align="center"><b>SOFTWARE</b><br/>I write it<br/><sub>Clear over clever. If it has to stay up, I treat it that way.</sub></p>
     </td>
     <td width="33%" valign="top">
-      <img src="assets/card-quality.png" alt="Quality room" />
+      <img src="assets/card-quality.jpg" alt="Quality room" />
       <p align="center"><b>QUALITY</b><br/>I break it first<br/><sub>Senior QA. Walk the path a real player walks, not the one in the ticket.</sub></p>
     </td>
     <td width="33%" valign="top">
-      <img src="assets/card-markets.png" alt="Markets room" />
+      <img src="assets/card-markets.jpg" alt="Markets room" />
       <p align="center"><b>MARKETS</b><br/>I watch the tape<br/><sub>Crypto and the rails under it. Learned by using it, not by collecting threads.</sub></p>
     </td>
   </tr>
