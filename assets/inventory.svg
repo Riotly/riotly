@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="160" viewBox="0 0 1260 160" role="img" aria-label="Inventory">
+  <rect width="1260" height="160" fill="#2a1b45"/>
+  <rect x="16" y="10" width="1228" height="140" fill="none" stroke="#6e5a8c" stroke-width="2"/>
+  <text x="36" y="28" fill="#9a86b8" font-family="Verdana, Geneva, sans-serif" font-size="11" letter-spacing="3">INVENTORY</text>
+  <g transform="translate(40,44)">
+    <rect width="130" height="92" fill="#1a1028" stroke="#6e5a8c" stroke-width="3"/>
+    <rect x="6" y="6" width="118" height="54" fill="#2a1b45"/>
+    <rect x="28" y="22" width="74" height="22" fill="#cbb8e4"/><rect x="32" y="26" width="8" height="6" fill="#1a1028"/><rect x="44" y="26" width="8" height="6" fill="#1a1028"/><rect x="56" y="26" width="8" height="6" fill="#1a1028"/><rect x="68" y="26" width="8" height="6" fill="#1a1028"/><rect x="80" y="26" width="8" height="6" fill="#1a1028"/>
+    <text x="65" y="80" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="10" letter-spacing="1">KEYBOARD</text>
+    <rect width="130" height="92" fill="none" stroke="#f6eefe" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+<g transform="translate(190,44)">
+    <rect width="130" height="92" fill="#1a1028" stroke="#6e5a8c" stroke-width="3"/>
+    <rect x="6" y="6" width="118" height="54" fill="#2a1b45"/>
+    <circle cx="65" cy="30" r="14" fill="none" stroke="#9ae0ff" stroke-width="4"/><rect x="76" y="38" width="18" height="5" fill="#cbb8e4" transform="rotate(35 76 38)"/>
+    <text x="65" y="80" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="10" letter-spacing="1">LENS</text>
+    <rect width="130" height="92" fill="none" stroke="#f6eefe" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+<g transform="translate(340,44)">
+    <rect width="130" height="92" fill="#1a1028" stroke="#6e5a8c" stroke-width="3"/>
+    <rect x="6" y="6" width="118" height="54" fill="#2a1b45"/>
+    <rect x="58" y="18" width="14" height="28" fill="#7dffb3"/><rect x="62" y="10" width="6" height="10" fill="#ffd36b"/>
+    <text x="65" y="80" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="10" letter-spacing="1">CANDLE</text>
+    <rect width="130" height="92" fill="none" stroke="#f6eefe" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+<g transform="translate(490,44)">
+    <rect width="130" height="92" fill="#1a1028" stroke="#6e5a8c" stroke-width="3"/>
+    <rect x="6" y="6" width="118" height="54" fill="#2a1b45"/>
+    <circle cx="65" cy="32" r="14" fill="#e8def6"/><circle cx="72" cy="26" r="12" fill="#2a1b45"/>
+    <text x="65" y="80" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="10" letter-spacing="1">MOON</text>
+    <rect width="130" height="92" fill="none" stroke="#f6eefe" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+<g transform="translate(640,44)">
+    <rect width="130" height="92" fill="#1a1028" stroke="#6e5a8c" stroke-width="3"/>
+    <rect x="6" y="6" width="118" height="54" fill="#2a1b45"/>
+    <rect x="40" y="28" width="50" height="6" fill="#cbb8e4"/><circle cx="48" cy="31" r="6" fill="#7dffb3"/><circle cx="82" cy="31" r="6" fill="#7dffb3"/>
+    <text x="65" y="80" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="10" letter-spacing="1">COMMIT</text>
+    <rect width="130" height="92" fill="none" stroke="#f6eefe" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+<g transform="translate(790,44)">
+    <rect width="130" height="92" fill="#1a1028" stroke="#6e5a8c" stroke-width="3"/>
+    <rect x="6" y="6" width="118" height="54" fill="#2a1b45"/>
+    <rect x="48" y="16" width="34" height="36" fill="#cbb8e4"/><rect x="52" y="20" width="26" height="6" fill="#1a1028"/><rect x="52" y="30" width="26" height="6" fill="#1a1028"/><circle cx="58" cy="44" r="3" fill="#7dffb3"/>
+    <text x="65" y="80" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="10" letter-spacing="1">SERVER</text>
+    <rect width="130" height="92" fill="none" stroke="#f6eefe" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+<g transform="translate(940,44)">
+    <rect width="130" height="92" fill="#1a1028" stroke="#6e5a8c" stroke-width="3"/>
+    <rect x="6" y="6" width="118" height="54" fill="#2a1b45"/>
+    <circle cx="52" cy="32" r="12" fill="none" stroke="#ffd36b" stroke-width="4"/><circle cx="78" cy="32" r="12" fill="none" stroke="#ffd36b" stroke-width="4"/><rect x="52" y="30" width="26" height="4" fill="#cbb8e4"/>
+    <text x="65" y="80" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="10" letter-spacing="1">TAPE</text>
+    <rect width="130" height="92" fill="none" stroke="#f6eefe" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+<g transform="translate(1090,44)">
+    <rect width="130" height="92" fill="#1a1028" stroke="#6e5a8c" stroke-width="3"/>
+    <rect x="6" y="6" width="118" height="54" fill="#2a1b45"/>
+    <rect x="40" y="18" width="50" height="30" fill="#1a1028"/><rect x="46" y="24" width="6" height="6" fill="#f6eefe"/><rect x="70" y="22" width="4" height="4" fill="#cbb8e4"/>
+    <text x="65" y="80" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="10" letter-spacing="1">NIGHT</text>
+    <rect width="130" height="92" fill="none" stroke="#f6eefe" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

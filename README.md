@@ -1,6 +1,9 @@
 <div align="center">
   <img src="assets/banner-live.svg" alt="Harsh Kohli night sky" width="100%" />
   <img src="assets/header.svg" alt="Harsh Kohli, gamer and developer" width="100%" />
+  <a href="https://harshkohli.com">
+    <img src="assets/press-start.svg" alt="Press start, enter harshkohli.com" width="100%" />
+  </a>
   <img src="assets/hud.svg" alt="Player status" width="100%" />
 </div>
 
@@ -19,6 +22,18 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=12&pause=900&color=CBB8E4&center=true&vCenter=true&width=720&height=28&lines=gamer+and+developer;write+it.+break+it.+watch+the+tape;from+player+to+builder" alt="gamer and developer" />
 
+</div>
+
+<img src="assets/divider.svg" alt="" width="100%" />
+
+<div align="center">
+  <img src="assets/dialogue.svg" alt="Moon moth dialogue" width="100%" />
+</div>
+
+<img src="assets/divider.svg" alt="" width="100%" />
+
+<div align="center">
+  <img src="assets/world.svg" alt="Night world map" width="100%" />
 </div>
 
 <img src="assets/divider.svg" alt="" width="100%" />
@@ -49,6 +64,10 @@
 </table>
 
 <img src="assets/divider.svg" alt="" width="100%" />
+
+<div align="center">
+  <img src="assets/inventory.svg" alt="Inventory" width="100%" />
+</div>
 
 ### Now
 
@@ -81,16 +100,9 @@
 
 <img src="assets/divider.svg" alt="" width="100%" />
 
-### Save file
-
-```text
-2015   first computer. countless hours exploring how the machine actually works
-2022   stepped into real software. started shipping
-2023   QA on a large client used by a lot of people at once
-2024   Senior QA. Releases, edge cases, the last five percent
-2025   deepest year at the bench so far
-2026   opened the door to markets. still writing. still pressing it twice
-```
+<div align="center">
+  <img src="assets/constellation.svg" alt="Journey constellation" width="100%" />
+</div>
 
 <img src="assets/divider.svg" alt="" width="100%" />
 

@@ -149,6 +149,12 @@ function writeBannerLive() {
     <animate attributeName="r" values="60;82;60" dur="5s" repeatCount="indefinite"/>
   </circle>
   ${scanlines(W, H, 6)}
+  ${Array.from({ length: 22 }, (_, i) => {
+    const x = (i * 67 + 19) % W;
+    const dur = (2.4 + (i % 6) * 0.35).toFixed(2);
+    const len = 7 + (i % 5) * 3;
+    return `<rect x="${x}" y="-16" width="2" height="${len}" fill="#e8def6" opacity="0.28"><animate attributeName="y" from="-20" to="${H + 10}" dur="${dur}s" begin="${(i * 0.18).toFixed(2)}s" repeatCount="indefinite"/></rect>`;
+  }).join("\n")}
   <rect x="0" y="0" width="${W}" height="${H}" fill="none" stroke="#cbb8e4" stroke-width="8" opacity="0.18"/>
 </svg>`;
   fs.writeFileSync(path.join(assets, "banner-live.svg"), svg);
@@ -348,9 +354,171 @@ function writeDivider() {
   fs.writeFileSync(path.join(assets, "divider.svg"), svg);
 }
 
+function embedJpeg(file) {
+  const buf = fs.readFileSync(path.join(assets, file));
+  return `data:image/jpeg;base64,${buf.toString("base64")}`;
+}
+
+function writePressStart() {
+  const label = "PRESS START";
+  const size = 7;
+  const w = measure(label, size, 1);
+  const x = Math.round((1200 - w) / 2);
+  const letters = pixelLetters(label, x, 38, size, "#f6eefe", 1);
+  const svg = `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-label="Press start">
+  <rect width="1200" height="110" fill="#1a1028"/>
+  <g>
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.35s" repeatCount="indefinite"/>
+    ${letters}
+  </g>
+  <text x="600" y="96" text-anchor="middle" fill="#9a86b8" font-family="Verdana, Geneva, sans-serif" font-size="12" letter-spacing="4">ENTER HARSHKOHLI.COM</text>
+</svg>`;
+  fs.writeFileSync(path.join(assets, "press-start.svg"), svg);
+}
+
+function writeWorld() {
+  const href = embedJpeg("world.jpg");
+  const W = 1549;
+  const H = 495;
+  const nodes = [
+    { x: 290, y: 330, name: "THE BENCH", sub: "software" },
+    { x: 650, y: 400, name: "HOME", sub: "harshkohli.com" },
+    { x: 800, y: 268, name: "THE LAB", sub: "quality" },
+    { x: 1265, y: 315, name: "THE TAPE", sub: "markets" },
+  ];
+  const marks = nodes
+    .map(
+      (n, i) => `<g>
+      <circle cx="${n.x}" cy="${n.y}" r="18" fill="none" stroke="#f6eefe" stroke-width="2" opacity="0.85">
+        <animate attributeName="r" values="14;24;14" dur="${2.2 + i * 0.2}s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.9;0.2;0.9" dur="${2.2 + i * 0.2}s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="${n.x}" cy="${n.y}" r="5" fill="#ffd36b">
+        <animate attributeName="opacity" values="1;0.4;1" dur="1.1s" begin="${i * 0.15}s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="${n.x - 52}" y="${n.y - 42}" width="104" height="22" fill="#1a1028" opacity="0.72"/>
+      <text x="${n.x}" y="${n.y - 27}" text-anchor="middle" fill="#f6eefe" font-family="Verdana, Geneva, sans-serif" font-size="11" font-weight="700" letter-spacing="1">${n.name}</text>
+      <text x="${n.x}" y="${n.y + 38}" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="10">${n.sub}</text>
+    </g>`
+    )
+    .join("\n");
+  const pathD = `M ${nodes[0].x},${nodes[0].y} L ${nodes[1].x},${nodes[1].y} L ${nodes[2].x},${nodes[2].y} L ${nodes[3].x},${nodes[3].y} L ${nodes[0].x},${nodes[0].y}`;
+  const svg = `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Night world map">
+  <image href="${href}" xlink:href="${href}" x="0" y="0" width="${W}" height="${H}" preserveAspectRatio="xMidYMid slice"/>
+  <path d="${pathD}" fill="none" stroke="#f6eefe" stroke-width="2" stroke-dasharray="6 8" opacity="0.7">
+    <animate attributeName="stroke-dashoffset" from="80" to="0" dur="4s" repeatCount="indefinite"/>
+  </path>
+  ${marks}
+  <circle r="7" fill="#7dffb3" stroke="#1a1028" stroke-width="2">
+    <animateMotion dur="14s" repeatCount="indefinite" rotate="0" path="${pathD}"/>
+  </circle>
+  <rect x="18" y="16" width="210" height="36" fill="#1a1028" opacity="0.75"/>
+  <text x="30" y="39" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="13" font-weight="700" letter-spacing="2">WORLD  ·  NIGHT</text>
+</svg>`;
+  fs.writeFileSync(path.join(assets, "world.svg"), svg);
+}
+
+function writeDialogue() {
+  const href = embedJpeg("moth.jpg");
+  const svg = `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Night dialogue">
+  <style>
+    .d { font: 16px Georgia, "Times New Roman", serif; fill: #f6eefe; }
+    .s { font: 11px Verdana, Geneva, sans-serif; fill: #cbb8e4; letter-spacing: 2px; }
+    @keyframes blink { 0%, 45% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    .tri { fill: #f6eefe; animation: blink 1.1s steps(1, end) infinite; }
+  </style>
+  <image href="${href}" xlink:href="${href}" x="0" y="0" width="1200" height="250" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="40" y="268" width="1120" height="132" fill="#1a1028" stroke="#cbb8e4" stroke-width="4"/>
+  <rect x="48" y="276" width="1104" height="116" fill="none" stroke="#6e5a8c" stroke-width="2"/>
+  <text x="72" y="304" class="s">MOON MOTH</text>
+  <text x="72" y="336" class="d" opacity="0">The night is long. The bench is still on.<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.3s" fill="freeze"/></text>
+  <text x="72" y="364" class="d" opacity="0">I write it. I break it. I watch the tape.<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.1s" fill="freeze"/></text>
+  <polygon class="tri" points="1118,372 1134,372 1126,384"/>
+</svg>`;
+  fs.writeFileSync(path.join(assets, "dialogue.svg"), svg);
+}
+
+function slot(x, y, label, icon) {
+  return `<g transform="translate(${x},${y})">
+    <rect width="130" height="92" fill="#1a1028" stroke="#6e5a8c" stroke-width="3"/>
+    <rect x="6" y="6" width="118" height="54" fill="#2a1b45"/>
+    ${icon}
+    <text x="65" y="80" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="10" letter-spacing="1">${label}</text>
+    <rect width="130" height="92" fill="none" stroke="#f6eefe" stroke-width="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>`;
+}
+
+function writeInventory() {
+  const items = [
+    slot(40, 44, "KEYBOARD", `<rect x="28" y="22" width="74" height="22" fill="#cbb8e4"/><rect x="32" y="26" width="8" height="6" fill="#1a1028"/><rect x="44" y="26" width="8" height="6" fill="#1a1028"/><rect x="56" y="26" width="8" height="6" fill="#1a1028"/><rect x="68" y="26" width="8" height="6" fill="#1a1028"/><rect x="80" y="26" width="8" height="6" fill="#1a1028"/>`),
+    slot(190, 44, "LENS", `<circle cx="65" cy="30" r="14" fill="none" stroke="#9ae0ff" stroke-width="4"/><rect x="76" y="38" width="18" height="5" fill="#cbb8e4" transform="rotate(35 76 38)"/>`),
+    slot(340, 44, "CANDLE", `<rect x="58" y="18" width="14" height="28" fill="#7dffb3"/><rect x="62" y="10" width="6" height="10" fill="#ffd36b"/>`),
+    slot(490, 44, "MOON", `<circle cx="65" cy="32" r="14" fill="#e8def6"/><circle cx="72" cy="26" r="12" fill="#2a1b45"/>`),
+    slot(640, 44, "COMMIT", `<rect x="40" y="28" width="50" height="6" fill="#cbb8e4"/><circle cx="48" cy="31" r="6" fill="#7dffb3"/><circle cx="82" cy="31" r="6" fill="#7dffb3"/>`),
+    slot(790, 44, "SERVER", `<rect x="48" y="16" width="34" height="36" fill="#cbb8e4"/><rect x="52" y="20" width="26" height="6" fill="#1a1028"/><rect x="52" y="30" width="26" height="6" fill="#1a1028"/><circle cx="58" cy="44" r="3" fill="#7dffb3"/>`),
+    slot(940, 44, "TAPE", `<circle cx="52" cy="32" r="12" fill="none" stroke="#ffd36b" stroke-width="4"/><circle cx="78" cy="32" r="12" fill="none" stroke="#ffd36b" stroke-width="4"/><rect x="52" y="30" width="26" height="4" fill="#cbb8e4"/>`),
+    slot(1090, 44, "NIGHT", `<rect x="40" y="18" width="50" height="30" fill="#1a1028"/><rect x="46" y="24" width="6" height="6" fill="#f6eefe"/><rect x="70" y="22" width="4" height="4" fill="#cbb8e4"/>`),
+  ].join("\n");
+  const svg = `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="160" viewBox="0 0 1260 160" role="img" aria-label="Inventory">
+  <rect width="1260" height="160" fill="#2a1b45"/>
+  <rect x="16" y="10" width="1228" height="140" fill="none" stroke="#6e5a8c" stroke-width="2"/>
+  <text x="36" y="28" fill="#9a86b8" font-family="Verdana, Geneva, sans-serif" font-size="11" letter-spacing="3">INVENTORY</text>
+  ${items}
+</svg>`;
+  fs.writeFileSync(path.join(assets, "inventory.svg"), svg);
+}
+
+function writeConstellation() {
+  const stars = [
+    { x: 80, y: 130, ylbl: "2015", t: "first computer" },
+    { x: 280, y: 70, ylbl: "2022", t: "started shipping" },
+    { x: 480, y: 150, ylbl: "2023", t: "QA at scale" },
+    { x: 680, y: 60, ylbl: "2024", t: "senior QA" },
+    { x: 880, y: 140, ylbl: "2025", t: "deepest year" },
+    { x: 1080, y: 80, ylbl: "2026", t: "the tape" },
+  ];
+  const pathD = stars.map((s, i) => `${i ? "L" : "M"} ${s.x},${s.y}`).join(" ");
+  const nodes = stars
+    .map(
+      (s, i) => `<g>
+      <circle cx="${s.x}" cy="${s.y}" r="0" fill="#f6eefe">
+        <animate attributeName="r" from="0" to="6" dur="0.4s" begin="${0.3 + i * 0.35}s" fill="freeze"/>
+      </circle>
+      <circle cx="${s.x}" cy="${s.y}" r="10" fill="none" stroke="#cbb8e4" opacity="0">
+        <animate attributeName="opacity" from="0" to="0.8" dur="0.4s" begin="${0.3 + i * 0.35}s" fill="freeze"/>
+      </circle>
+      <text x="${s.x}" y="${s.y - 18}" text-anchor="middle" fill="#f6eefe" font-family="Verdana, Geneva, sans-serif" font-size="12" font-weight="700" opacity="0">${s.ylbl}<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="${0.45 + i * 0.35}s" fill="freeze"/></text>
+      <text x="${s.x}" y="${s.y + 28}" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="11" opacity="0">${s.t}<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="${0.55 + i * 0.35}s" fill="freeze"/></text>
+    </g>`
+    )
+    .join("\n");
+  const svg = `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Journey constellation">
+  <rect width="1200" height="220" fill="#1a1028"/>
+  ${starField(28, 1200, 220, "c")}
+  <path d="${pathD}" fill="none" stroke="#cbb8e4" stroke-width="2" stroke-dasharray="420" stroke-dashoffset="420">
+    <animate attributeName="stroke-dashoffset" from="420" to="0" dur="2.8s" fill="freeze"/>
+  </path>
+  ${nodes}
+  <text x="40" y="28" fill="#9a86b8" font-family="Verdana, Geneva, sans-serif" font-size="11" letter-spacing="3">CONSTELLATION  ·  SAVE FILE</text>
+</svg>`;
+  fs.writeFileSync(path.join(assets, "constellation.svg"), svg);
+}
+
 writeBannerLive();
 writeHeader();
 writeHud();
 writeTerminal();
 writeDivider();
-console.log("wrote banner-live, header, hud, terminal, divider");
+writePressStart();
+writeWorld();
+writeDialogue();
+writeInventory();
+writeConstellation();
+console.log("wrote living night set");

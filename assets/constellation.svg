@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Journey constellation">
+  <rect width="1200" height="220" fill="#1a1028"/>
+  <rect x="23" y="37" width="1" height="1" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.20s" begin="0.00s" repeatCount="indefinite"/></rect>
+<rect x="120" y="90" width="2" height="2" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.55s" begin="0.13s" repeatCount="indefinite"/></rect>
+<rect x="217" y="143" width="3" height="3" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.90s" begin="0.26s" repeatCount="indefinite"/></rect>
+<rect x="314" y="196" width="1" height="1" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.25s" begin="0.39s" repeatCount="indefinite"/></rect>
+<rect x="411" y="49" width="2" height="2" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.60s" begin="0.52s" repeatCount="indefinite"/></rect>
+<rect x="508" y="102" width="3" height="3" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.95s" begin="0.65s" repeatCount="indefinite"/></rect>
+<rect x="605" y="155" width="1" height="1" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.30s" begin="0.78s" repeatCount="indefinite"/></rect>
+<rect x="702" y="8" width="2" height="2" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.20s" begin="0.91s" repeatCount="indefinite"/></rect>
+<rect x="799" y="61" width="3" height="3" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.55s" begin="1.04s" repeatCount="indefinite"/></rect>
+<rect x="896" y="114" width="1" height="1" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.90s" begin="1.17s" repeatCount="indefinite"/></rect>
+<rect x="993" y="167" width="2" height="2" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.25s" begin="1.30s" repeatCount="indefinite"/></rect>
+<rect x="1090" y="20" width="3" height="3" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.60s" begin="1.43s" repeatCount="indefinite"/></rect>
+<rect x="1187" y="73" width="1" height="1" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.95s" begin="1.56s" repeatCount="indefinite"/></rect>
+<rect x="104" y="126" width="2" height="2" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.30s" begin="1.69s" repeatCount="indefinite"/></rect>
+<rect x="201" y="179" width="3" height="3" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.20s" begin="1.82s" repeatCount="indefinite"/></rect>
+<rect x="298" y="32" width="1" height="1" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.55s" begin="1.95s" repeatCount="indefinite"/></rect>
+<rect x="395" y="85" width="2" height="2" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.90s" begin="2.08s" repeatCount="indefinite"/></rect>
+<rect x="492" y="138" width="3" height="3" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.25s" begin="2.21s" repeatCount="indefinite"/></rect>
+<rect x="589" y="191" width="1" height="1" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.60s" begin="2.34s" repeatCount="indefinite"/></rect>
+<rect x="686" y="44" width="2" height="2" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.95s" begin="2.47s" repeatCount="indefinite"/></rect>
+<rect x="783" y="97" width="3" height="3" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.30s" begin="2.60s" repeatCount="indefinite"/></rect>
+<rect x="880" y="150" width="1" height="1" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.20s" begin="2.73s" repeatCount="indefinite"/></rect>
+<rect x="977" y="203" width="2" height="2" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.55s" begin="2.86s" repeatCount="indefinite"/></rect>
+<rect x="1074" y="56" width="3" height="3" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.90s" begin="2.99s" repeatCount="indefinite"/></rect>
+<rect x="1171" y="109" width="1" height="1" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.25s" begin="3.12s" repeatCount="indefinite"/></rect>
+<rect x="88" y="162" width="2" height="2" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.60s" begin="3.25s" repeatCount="indefinite"/></rect>
+<rect x="185" y="15" width="3" height="3" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.95s" begin="3.38s" repeatCount="indefinite"/></rect>
+<rect x="282" y="68" width="1" height="1" fill="#f3eef8" opacity="0.35"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.30s" begin="3.51s" repeatCount="indefinite"/></rect>
+  <path d="M 80,130 L 280,70 L 480,150 L 680,60 L 880,140 L 1080,80" fill="none" stroke="#cbb8e4" stroke-width="2" stroke-dasharray="420" stroke-dashoffset="420">
+    <animate attributeName="stroke-dashoffset" from="420" to="0" dur="2.8s" fill="freeze"/>
+  </path>
+  <g>
+      <circle cx="80" cy="130" r="0" fill="#f6eefe">
+        <animate attributeName="r" from="0" to="6" dur="0.4s" begin="0.3s" fill="freeze"/>
+      </circle>
+      <circle cx="80" cy="130" r="10" fill="none" stroke="#cbb8e4" opacity="0">
+        <animate attributeName="opacity" from="0" to="0.8" dur="0.4s" begin="0.3s" fill="freeze"/>
+      </circle>
+      <text x="80" y="112" text-anchor="middle" fill="#f6eefe" font-family="Verdana, Geneva, sans-serif" font-size="12" font-weight="700" opacity="0">2015<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.45s" fill="freeze"/></text>
+      <text x="80" y="158" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="11" opacity="0">first computer<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.55s" fill="freeze"/></text>
+    </g>
+<g>
+      <circle cx="280" cy="70" r="0" fill="#f6eefe">
+        <animate attributeName="r" from="0" to="6" dur="0.4s" begin="0.6499999999999999s" fill="freeze"/>
+      </circle>
+      <circle cx="280" cy="70" r="10" fill="none" stroke="#cbb8e4" opacity="0">
+        <animate attributeName="opacity" from="0" to="0.8" dur="0.4s" begin="0.6499999999999999s" fill="freeze"/>
+      </circle>
+      <text x="280" y="52" text-anchor="middle" fill="#f6eefe" font-family="Verdana, Geneva, sans-serif" font-size="12" font-weight="700" opacity="0">2022<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.8s" fill="freeze"/></text>
+      <text x="280" y="98" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="11" opacity="0">started shipping<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.9s" fill="freeze"/></text>
+    </g>
+<g>
+      <circle cx="480" cy="150" r="0" fill="#f6eefe">
+        <animate attributeName="r" from="0" to="6" dur="0.4s" begin="1s" fill="freeze"/>
+      </circle>
+      <circle cx="480" cy="150" r="10" fill="none" stroke="#cbb8e4" opacity="0">
+        <animate attributeName="opacity" from="0" to="0.8" dur="0.4s" begin="1s" fill="freeze"/>
+      </circle>
+      <text x="480" y="132" text-anchor="middle" fill="#f6eefe" font-family="Verdana, Geneva, sans-serif" font-size="12" font-weight="700" opacity="0">2023<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.15s" fill="freeze"/></text>
+      <text x="480" y="178" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="11" opacity="0">QA at scale<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.25s" fill="freeze"/></text>
+    </g>
+<g>
+      <circle cx="680" cy="60" r="0" fill="#f6eefe">
+        <animate attributeName="r" from="0" to="6" dur="0.4s" begin="1.3499999999999999s" fill="freeze"/>
+      </circle>
+      <circle cx="680" cy="60" r="10" fill="none" stroke="#cbb8e4" opacity="0">
+        <animate attributeName="opacity" from="0" to="0.8" dur="0.4s" begin="1.3499999999999999s" fill="freeze"/>
+      </circle>
+      <text x="680" y="42" text-anchor="middle" fill="#f6eefe" font-family="Verdana, Geneva, sans-serif" font-size="12" font-weight="700" opacity="0">2024<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.4999999999999998s" fill="freeze"/></text>
+      <text x="680" y="88" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="11" opacity="0">senior QA<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.5999999999999999s" fill="freeze"/></text>
+    </g>
+<g>
+      <circle cx="880" cy="140" r="0" fill="#f6eefe">
+        <animate attributeName="r" from="0" to="6" dur="0.4s" begin="1.7s" fill="freeze"/>
+      </circle>
+      <circle cx="880" cy="140" r="10" fill="none" stroke="#cbb8e4" opacity="0">
+        <animate attributeName="opacity" from="0" to="0.8" dur="0.4s" begin="1.7s" fill="freeze"/>
+      </circle>
+      <text x="880" y="122" text-anchor="middle" fill="#f6eefe" font-family="Verdana, Geneva, sans-serif" font-size="12" font-weight="700" opacity="0">2025<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.8499999999999999s" fill="freeze"/></text>
+      <text x="880" y="168" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="11" opacity="0">deepest year<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.95s" fill="freeze"/></text>
+    </g>
+<g>
+      <circle cx="1080" cy="80" r="0" fill="#f6eefe">
+        <animate attributeName="r" from="0" to="6" dur="0.4s" begin="2.05s" fill="freeze"/>
+      </circle>
+      <circle cx="1080" cy="80" r="10" fill="none" stroke="#cbb8e4" opacity="0">
+        <animate attributeName="opacity" from="0" to="0.8" dur="0.4s" begin="2.05s" fill="freeze"/>
+      </circle>
+      <text x="1080" y="62" text-anchor="middle" fill="#f6eefe" font-family="Verdana, Geneva, sans-serif" font-size="12" font-weight="700" opacity="0">2026<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.2s" fill="freeze"/></text>
+      <text x="1080" y="108" text-anchor="middle" fill="#cbb8e4" font-family="Verdana, Geneva, sans-serif" font-size="11" opacity="0">the tape<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.3s" fill="freeze"/></text>
+    </g>
+  <text x="40" y="28" fill="#9a86b8" font-family="Verdana, Geneva, sans-serif" font-size="11" letter-spacing="3">CONSTELLATION  ·  SAVE FILE</text>
+</svg>
