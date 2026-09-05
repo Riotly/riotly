@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">Harsh Kohli</title>
+  <desc id="desc">Gamer and developer. @Riotly. Uttar Pradesh, India.</desc>
+  <rect width="1200" height="220" fill="#0a0a0a"/>
+  <text x="600" y="96" text-anchor="middle" fill="#f4f4f5" font-family="Georgia, 'Times New Roman', Times, serif" font-size="52" font-weight="600" letter-spacing="12">HARSH KOHLI</text>
+  <text x="600" y="138" text-anchor="middle" fill="#a1a1aa" font-family="Verdana, Geneva, Tahoma, sans-serif" font-size="15" letter-spacing="7">GAMER  ·  DEVELOPER  ·  @RIOTLY</text>
+  <line x1="455" y1="160" x2="745" y2="160" stroke="#3f3f46" stroke-width="1"/>
+  <text x="600" y="190" text-anchor="middle" fill="#71717a" font-family="Verdana, Geneva, Tahoma, sans-serif" font-size="12" letter-spacing="3.5">UTTAR PRADESH  ·  INDIA  ·  HARSHKOHLI.COM</text>
+</svg>
