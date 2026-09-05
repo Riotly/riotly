@@ -91,8 +91,8 @@ Building things that make sense, and sometimes even feel beautiful.
 ### GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Riotly&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0a0a0a&title_color=f4f4f5&icon_color=a1a1aa&text_color=a1a1aa&ring_color=e4e4e7" alt="GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Riotly&layout=compact&hide_border=true&count_private=true&bg_color=0a0a0a&title_color=f4f4f5&text_color=a1a1aa&exclude_repo=joplin,docker-mailserver,SkyCrypt,register,js.org,python,Akinator-Bot" alt="Top languages" height="165" />
+  <img src="https://github-stats-extended.vercel.app/api?username=Riotly&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0a0a0a&title_color=f4f4f5&icon_color=a1a1aa&text_color=a1a1aa&ring_color=e4e4e7" alt="GitHub stats" height="165" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Riotly&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=f4f4f5&text_color=a1a1aa&exclude_repo=joplin,docker-mailserver,SkyCrypt,register,js.org,python,Akinator-Bot" alt="Top languages" height="165" />
 </div>
 
 <br />
