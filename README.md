@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.png" alt="Harsh Kohli" width="100%" />
+  <img src="assets/banner.png" alt="Harsh Kohli night sky" width="100%" />
   <img src="assets/header.svg" alt="Harsh Kohli, gamer and developer" width="100%" />
 </div>
 
@@ -7,98 +7,117 @@
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/website-harshkohli.com-0a0a0a?style=flat-square&labelColor=0a0a0a&color=e4e4e7)](https://harshkohli.com)
-[![Email](https://img.shields.io/badge/email-send%40harshkohli.com-0a0a0a?style=flat-square&labelColor=0a0a0a&color=e4e4e7)](mailto:send@harshkohli.com)
-[![X](https://img.shields.io/badge/X-%40riootly-0a0a0a?style=flat-square&labelColor=0a0a0a&color=e4e4e7)](https://x.com/riootly)
-[![Twitch](https://img.shields.io/badge/Twitch-iitzHarsh-0a0a0a?style=flat-square&labelColor=0a0a0a&color=e4e4e7)](https://twitch.tv/iitzHarsh)
-[![Reddit](https://img.shields.io/badge/Reddit-u%2Friotly-0a0a0a?style=flat-square&labelColor=0a0a0a&color=e4e4e7)](https://reddit.com/user/riotly)
-[![Discord](https://img.shields.io/badge/Discord-riotly-0a0a0a?style=flat-square&labelColor=0a0a0a&color=e4e4e7)](https://discord.com/users/riotly)
+[![Website](https://img.shields.io/badge/website-harshkohli.com-2a1b45?style=flat-square&labelColor=2a1b45&color=cbb8e4)](https://harshkohli.com)
+[![Email](https://img.shields.io/badge/mail-send%40harshkohli.com-2a1b45?style=flat-square&labelColor=2a1b45&color=cbb8e4)](mailto:send@harshkohli.com)
+[![X](https://img.shields.io/badge/X-%40riootly-2a1b45?style=flat-square&labelColor=2a1b45&color=cbb8e4)](https://x.com/riootly)
+[![Twitch](https://img.shields.io/badge/twitch-iitzHarsh-2a1b45?style=flat-square&labelColor=2a1b45&color=cbb8e4)](https://twitch.tv/iitzHarsh)
+[![Reddit](https://img.shields.io/badge/reddit-u%2Friotly-2a1b45?style=flat-square&labelColor=2a1b45&color=cbb8e4)](https://reddit.com/user/riotly)
+[![Discord](https://img.shields.io/badge/discord-riotly-2a1b45?style=flat-square&labelColor=2a1b45&color=cbb8e4)](https://discord.com/users/riotly)
 
 <br />
 
-<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=500&size=22&duration=3500&pause=900&color=A1A1AA&center=true&vCenter=true&width=640&lines=A+gamer+and+developer;I+write+it.+I+break+it+first.;From+player+to+builder" alt="A gamer and developer" />
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=12&pause=900&color=CBB8E4&center=true&vCenter=true&width=720&height=28&lines=gamer+and+developer;write+it.+break+it.+watch+the+tape;from+player+to+builder" alt="gamer and developer" />
 
 </div>
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
-### About
+```text
+$ whoami
+harsh kohli
+gamer. developer. still at the bench.
 
-I'm **Harsh Kohli**. I write software, I test it like it matters, and I keep learning the systems underneath, including the ones that move money.
+$ cat about.txt
+I write software, I test it like it matters,
+and I keep learning the systems underneath,
+including the ones that move money.
 
-First computer in **2015**. Started shipping for real in **2022**. Joined **Badlion Client** in **2023**, Senior QA in **2024**. Still at the bench.
+First computer in 2015. Shipping for real in 2022.
+Senior QA in 2024. Still asking what happens
+if you press it twice.
 
-Building things that make sense, and sometimes even feel beautiful.
+$ echo site
+https://harshkohli.com
+```
 
-<p align="center">
-  <a href="https://harshkohli.com"><strong>harshkohli.com</strong></a> &nbsp;·&nbsp; Uttar Pradesh, India &nbsp;·&nbsp; <code>@Riotly</code>
-</p>
+<img src="assets/divider.svg" alt="" width="100%" />
 
----
+### Rooms
 
-### What I do
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <img src="assets/card-software.png" alt="Software room" />
+      <p align="center"><b>SOFTWARE</b><br/>I write it<br/><sub>Clear over clever. If it has to stay up, I treat it that way.</sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <img src="assets/card-quality.png" alt="Quality room" />
+      <p align="center"><b>QUALITY</b><br/>I break it first<br/><sub>Senior QA. Walk the path a real player walks, not the one in the ticket.</sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <img src="assets/card-markets.png" alt="Markets room" />
+      <p align="center"><b>MARKETS</b><br/>I watch the tape<br/><sub>Crypto and the rails under it. Learned by using it, not by collecting threads.</sub></p>
+    </td>
+  </tr>
+</table>
 
-| Software | Quality | Markets |
-| :-- | :-- | :-- |
-| **I write it** | **I break it first** | **I watch the tape** |
-| Sites, tools, client work. If it has to stay up, I treat it that way. Clear over clever. | Senior QA on [Badlion Client](https://badlion.net), a large Minecraft client, a lot of people hitting the same buttons at the same time. | Crypto and the rails under it. I learned this by using it, not by collecting threads. |
-
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ### Now
 
-- Building [harshkohli.com](https://harshkohli.com)
-- Senior QA at **Badlion Client**
-- Trading, reading the tape, writing small things that help me see it clearer
+```text
+[x] building harshkohli.com
+[x] senior QA. releases, edge cases, the last five percent
+[x] trading, reading the tape, writing small things that help me see it clearer
+[ ] if I cannot read it next month, it is not done
+```
 
----
-
-### Stack
+### Loadout
 
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-0a0a0a?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-0a0a0a?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Python-0a0a0a?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-0a0a0a?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/React-0a0a0a?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-0a0a0a?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Next.js-0a0a0a?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/JavaScript-2a1b45?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-2a1b45?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-2a1b45?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-2a1b45?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/React-2a1b45?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-2a1b45?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Next.js-2a1b45?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <br />
-  <img src="https://img.shields.io/badge/SQL-0a0a0a?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="SQL" />
-  <img src="https://img.shields.io/badge/MongoDB-0a0a0a?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Docker-0a0a0a?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
-  <img src="https://img.shields.io/badge/AWS-0a0a0a?style=for-the-badge&logo=amazonaws&logoColor=FF9900" alt="AWS" />
-  <img src="https://img.shields.io/badge/Cloudflare-0a0a0a?style=for-the-badge&logo=cloudflare&logoColor=F38020" alt="Cloudflare" />
-  <img src="https://img.shields.io/badge/Nginx-0a0a0a?style=for-the-badge&logo=nginx&logoColor=009639" alt="Nginx" />
-  <img src="https://img.shields.io/badge/Git-0a0a0a?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/SQL-2a1b45?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="SQL" />
+  <img src="https://img.shields.io/badge/MongoDB-2a1b45?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Docker-2a1b45?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
+  <img src="https://img.shields.io/badge/AWS-2a1b45?style=for-the-badge&logo=amazonaws&logoColor=FF9900" alt="AWS" />
+  <img src="https://img.shields.io/badge/Cloudflare-2a1b45?style=for-the-badge&logo=cloudflare&logoColor=F38020" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/Nginx-2a1b45?style=for-the-badge&logo=nginx&logoColor=009639" alt="Nginx" />
+  <img src="https://img.shields.io/badge/Git-2a1b45?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
 </p>
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
-### Journey
+### Save file
 
 ```text
 2015   first computer. countless hours exploring how the machine actually works
 2022   stepped into real software. started shipping
-2023   joined Badlion Client
+2023   QA on a large client used by a lot of people at once
 2024   Senior QA. Releases, edge cases, the last five percent
 2025   deepest year at the bench so far
-2026   opened the door to markets. still writing. still asking what happens if you press it twice
+2026   opened the door to markets. still writing. still pressing it twice
 ```
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ### GitHub
 
 <div align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Riotly&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0a0a0a&title_color=f4f4f5&icon_color=a1a1aa&text_color=a1a1aa&ring_color=e4e4e7" alt="GitHub stats" height="165" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Riotly&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=f4f4f5&text_color=a1a1aa&exclude_repo=joplin,docker-mailserver,SkyCrypt,register,js.org,python,Akinator-Bot" alt="Top languages" height="165" />
+  <img src="https://github-stats-extended.vercel.app/api?username=Riotly&show_icons=true&include_all_commits=true&hide_border=true&bg_color=2a1b45&title_color=f6eefe&icon_color=cbb8e4&text_color=cbb8e4&ring_color=e8def6" alt="GitHub stats" height="165" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Riotly&layout=compact&hide_border=true&bg_color=2a1b45&title_color=f6eefe&text_color=cbb8e4&exclude_repo=joplin,docker-mailserver,SkyCrypt,register,js.org,python,Akinator-Bot" alt="Top languages" height="165" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Riotly&hide_border=true&background=0a0a0a&ring=e4e4e7&fire=e4e4e7&currStreakNum=f4f4f5&sideNums=f4f4f5&currStreakLabel=a1a1aa&sideLabels=a1a1aa&dates=71717a&stroke=27272a" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=Riotly&hide_border=true&background=2A1B45&ring=CBB8E4&fire=E8DEF6&currStreakNum=F6EEFE&sideNums=F6EEFE&currStreakLabel=CBB8E4&sideLabels=CBB8E4&dates=9A86B8&stroke=6E5A8C" alt="GitHub streak" />
 </div>
 
 <br />
@@ -111,7 +130,7 @@ Building things that make sense, and sometimes even feel beautiful.
   </picture>
 </div>
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 <div align="center">
 
@@ -121,6 +140,6 @@ Building things that make sense, and sometimes even feel beautiful.
 
 <br />
 
-<sub>If I cannot read it next month, it is not done.</sub>
+<sub>if I cannot read it next month, it is not done.</sub>
 
 </div>

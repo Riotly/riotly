@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="img" aria-hidden="true">
+  <rect width="1200" height="28" fill="#2a1b45"/>
+  <g fill="#cbb8e4">
+    <rect x="80" y="12" width="2" height="2"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.1s" repeatCount="indefinite"/></rect>
+    <rect x="220" y="8" width="3" height="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.7s" repeatCount="indefinite"/></rect>
+    <rect x="390" y="14" width="2" height="2"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/></rect>
+    <rect x="560" y="10" width="3" height="3"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.9s" repeatCount="indefinite"/></rect>
+    <rect x="730" y="13" width="2" height="2"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></rect>
+    <rect x="900" y="7" width="3" height="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/></rect>
+    <rect x="1080" y="12" width="2" height="2"><animate attributeName="opacity" values="0.35;1;0.35" dur="2.2s" repeatCount="indefinite"/></rect>
+  </g>
+  <line x1="160" y1="14" x2="1040" y2="14" stroke="#6e5a8c" stroke-width="1"/>
+</svg>
